@@ -49,6 +49,7 @@ __And Found DeepLabV3 model more accurate than other architectures__
 
 - [ ] Create a tflite model.
 - [ ] Android tflite benchmark.
+- [ ] Float16 inference benchmark.
 - [ ] Build a user-friendly script to perform the background segmentation.
 - [ ] Try **quantization-aware** training
 - [x] Train with **mixed precision** (FP16) 
