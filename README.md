@@ -24,11 +24,11 @@ __And Found DeepLabV3 model more accurate than other architectures__
 - https://www.kaggle.com/datasets/rohit369/human-background-segmentation
 
 ## Trained Models
-| Model                   | Link                                                                                  |
-|-------------------------|---------------------------------------------------------------------------------------|
-| DeeplabV3               | https://drive.google.com/file/d/1--MKJToJsM2YLjG2nz7BRgkyQ0lMYJzi/view?usp=share_link |
-| SegNet(ResNet backbone) | https://drive.google.com/file/d/1pR0O9ZZyEP-_aUSR_MiJn-2gMVZ9bqhj/view?usp=share_link |
-| U-Net                   | https://drive.google.com/file/d/1lOZoCspE6soV73Oadini_KEF8lYL-LD9/view?usp=share_link |
+| Model                   | Link                                                                                  | Size |
+|-------------------------|---------------------------------------------------------------------------------------|--|
+| DeeplabV3               | https://drive.google.com/file/d/1--MKJToJsM2YLjG2nz7BRgkyQ0lMYJzi/view?usp=share_link |  |
+| SegNet(ResNet backbone) | https://drive.google.com/file/d/1pR0O9ZZyEP-_aUSR_MiJn-2gMVZ9bqhj/view?usp=share_link |  |
+| U-Net                   | https://drive.google.com/file/d/1lOZoCspE6soV73Oadini_KEF8lYL-LD9/view?usp=share_link |  |
 
 
 ## Dependencies
@@ -45,6 +45,27 @@ __And Found DeepLabV3 model more accurate than other architectures__
 | tqdm           | 4.65.0   |
 
 
-# convert to tflite
+## TODO
 
-# how to use?
+- [ ] Create a tflite model.
+- [ ] Android tflite benchmark.
+- [ ] Build a user-friendly script to perform the background segmentation.
+- [ ] Try **quantization-aware** training
+- [x] Train with **mixed precision** (FP16) 
+- [ ] Optimize the model by performing weight **pruning**
+- [ ] Improve **accuracy** & reduce **artifacts** at runtime
+- [ ] Leverage **temporal consistency** in video
+- [ ] Include **boundary refinement** techniques
+- [ ] Reduce GPU memory **copy time**
+- [ ] Incroporate **depth** information
+- [ ] Apply **photorealistic style transfer** on foreground based on **background image**
+- [ ] Tryout models such as Mobile-Unet, Prisma-Net, Portrait-Net, Slim-Net, SINet
+- [ ] Give preview of failure cases
+
+## References
+
+- https://github.com/anilsathyan7/Portrait-Segmentation
+
+<br>
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
