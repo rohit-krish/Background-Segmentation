@@ -59,7 +59,6 @@ __And Found DeepLabV3 model more accurate than other architectures__
 - [ ] Include **boundary refinement** techniques
 - [ ] Reduce GPU memory **copy time**
 - [ ] Incroporate **depth** information
-- [ ] Apply **photorealistic style transfer** on foreground based on **background image**
 - [ ] Tryout models such as Mobile-Unet, Prisma-Net, Portrait-Net, Slim-Net, SINet
 - [ ] Give preview of failure cases
 
