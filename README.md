@@ -24,11 +24,11 @@ __And Found DeepLabV3 model more accurate than other architectures__
 - https://www.kaggle.com/datasets/rohit369/human-background-segmentation
 
 ## Trained Models
-| Model                   | Link                                                                                  | Size |
-|-------------------------|---------------------------------------------------------------------------------------|--|
-| DeeplabV3               | https://drive.google.com/file/d/1--MKJToJsM2YLjG2nz7BRgkyQ0lMYJzi/view?usp=share_link |  |
-| SegNet(ResNet backbone) | https://drive.google.com/file/d/1pR0O9ZZyEP-_aUSR_MiJn-2gMVZ9bqhj/view?usp=share_link |  |
-| U-Net                   | https://drive.google.com/file/d/1lOZoCspE6soV73Oadini_KEF8lYL-LD9/view?usp=share_link |  |
+| Model                   | Link                                                                                  |   Size   |
+|-------------------------|---------------------------------------------------------------------------------------|----------|
+| DeeplabV3               | https://drive.google.com/file/d/1--MKJToJsM2YLjG2nz7BRgkyQ0lMYJzi/view?usp=share_link | 140.9 MB |
+| SegNet(ResNet backbone) | https://drive.google.com/file/d/1pR0O9ZZyEP-_aUSR_MiJn-2gMVZ9bqhj/view?usp=share_link | 204.9 MB |
+| U-Net                   | https://drive.google.com/file/d/1lOZoCspE6soV73Oadini_KEF8lYL-LD9/view?usp=share_link | 118.5 MB |
 
 
 ## Dependencies
