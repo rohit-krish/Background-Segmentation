@@ -1,8 +1,8 @@
 # Human-Background Segmentation
 
-<video src="./videos/outputs1/_import_613998b80db132.14567350_preview.mp4"></video>
+https://github.com/rohit-krish/Background-Segmentation/assets/100354219/2bec9057-2e55-4f72-8aae-7b65b21bf141
 
-Realtime background segmentation deep-learning model.
+## Realtime background segmentation deep-learning model.
 
 The process is segmenting a person(or persons) in an image from its background. Here we use the concept of semantic segmentation to predict the label of every pixel (dense prediction) in an image. This technique is widely used in computer vision applications like background replacement, or other applications.
 
@@ -15,14 +15,13 @@ We experimented with the following architectures for implementing a real-time po
 - SegNet
 - SegResNet
 - Unet
+
 There are of course exist other architectures we haven't tried yet.
 
 __And Found DeepLabV3 model more accurate than other architectures__
 
 ## Dependencies
-
 **TODO: reference the requirements.txt here**
 
 ## Dataset
-
 - https://www.kaggle.com/datasets/rohit369/human-background-segmentation
