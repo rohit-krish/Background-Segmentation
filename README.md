@@ -47,6 +47,7 @@ __And Found DeepLabV3 model more accurate than other architectures__
 
 ## TODO
 
+<!--
 - [ ] Create a tflite model.
 - [ ] Android tflite benchmark.
 - [ ] Float16 inference benchmark.
@@ -61,6 +62,7 @@ __And Found DeepLabV3 model more accurate than other architectures__
 - [ ] Incroporate **depth** information
 - [ ] Tryout models such as Mobile-Unet, Prisma-Net, Portrait-Net, Slim-Net, SINet
 - [ ] Give preview of failure cases
+-->
 
 ## References
 
